@@ -8,6 +8,7 @@
 	* Incompatible changes:
 		- Will not support db size for redis clients(2015-08-07)
 	* Bug fixes:
+		- Fix Logger bug(2016-01-26)
 		- Fix zclear infinite loop when data is broken(2015-12-02)
 		- Fix setbit crash on very big offset(2015-11-17)
 		- Fix Jedis zadd() score in scientific notation(2015-10-22)
